@@ -24,7 +24,7 @@ describe("API Nock Tests", () => {
   });
 });
 
-// Crude converter from a nock fixture to a pactfile
+// Crude converter from a nock fixture to a pactfile 
 export const convertNockToPact = () => {
   const scopes = require(path.join(__dirname, "..", nockBack.fixtures, filename))
 
